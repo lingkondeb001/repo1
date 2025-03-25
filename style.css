@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 30px;
+    text-align: center;
+}
+form{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+input{
+   width: 80%;
+   padding: 10px;
+   margin: 10px;
+}
+#btn{
+    cursor: pointer;
+}
