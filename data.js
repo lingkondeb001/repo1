@@ -2,11 +2,14 @@
 
 async function api(){
 
-let response =await fetch('GET https://skincare-api.herokuapp.com');
-let data =await response.json();
+let url=fetch('https://skincare-api.herokuapp.com');
 
+url.then((res)=>{
+   return res.json();
+
+}).then((data)=>{
 console.log(data)
-
+})
 
 }
 
